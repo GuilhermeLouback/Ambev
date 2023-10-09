@@ -228,3 +228,19 @@ footer.footer {
 .record{
     font-size: 2rem;
 }
+
+
+.center-paragraph {
+    text-align: center; /* Define o alinhamento central para o parágrafo */
+}
+
+.check-box-content {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.center {
+    text-align: center; /* Centraliza o conteúdo horizontalmente */
+}
