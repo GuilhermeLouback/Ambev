@@ -1,6 +1,6 @@
 USE AMBEV;
 
-DROP TABLE IF EXISTS working_hours, users;
+DROP TABLE IF EXISTS users;
 CREATE TABLE users (
     id INT(6) AUTO_INCREMENT PRIMARY KEY, 
     name VARCHAR(100) NOT NULL,
