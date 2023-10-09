@@ -1,0 +1,36 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #977878;
+}
+
+
+/* Estilos para a imagem de fundo */
+.login-background {
+    background-image: url('diretamente-acima-da-mesa-com-ferramentas-de-trabalho.jpg'); /* Substitua pelo caminho da sua imagem */
+    background-size: cover; /* Redimensiona a imagem para cobrir todo o corpo */
+    background-position: center; /* Centraliza a imagem no corpo */
+    background-repeat: no-repeat; /* Evita que a imagem se repita */
+}
+
+.form-login {
+    flex-basis: 450px;
+}
+
+.login-card .card-footer {
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.login-card .card-header {
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    background-color: #bb5959;
+}
+
