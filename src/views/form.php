@@ -1,4 +1,11 @@
+
+<link rel="icon" href="/assets/css/favicon.ico" type="image/x-icon">
+
+<title>Ultra Safe</title>
+
 <main class="content">
+
+
 
 <h2>Formulário de inspeção</h2>
 <h2>Travaquedas</h2>
@@ -12,6 +19,8 @@ Baixe as instrucoes em <a href="https://www.ultrasafe.com.br" target="_blank">Ul
 <br>
 
 <form action="#" method="post">
+
+
 <h6>Informações do usuário</h6>
     <div class="form-row">
         <div class="form-group col-md-8">
@@ -25,75 +34,77 @@ Baixe as instrucoes em <a href="https://www.ultrasafe.com.br" target="_blank">Ul
             </div>
         </div>
         <div class="form-group col-md-4">
-            <label for="nascimento">Empresa</label>
+            <label for="empresa">Empresa</label>
             <input type="text"
-                class="form-control <?= $erros['nascimento'] ? 'is-invalid' : ''?>"
-                id="nascimento" name="nascimento"
-                placeholder="Nascimento"
-                value="<?= $_POST['nascimento'] ?>">
+                class="form-control <?= $erros['empresa'] ? 'is-invalid' : ''?>"
+                id="empresa" name="nascimento"
+                placeholder="Empresa"
+                value="<?= $_POST['empresa'] ?>">
             <div class="invalid-feedback">
-                <?= $erros['nascimento'] ?>
+                <?= $erros['empresa'] ?>
             </div>
         </div>
     </div>
     <div class="form-row">
         <div class="form-group col-md-12">
-            <label for="email">Local de Trabalho(Endereço)</label>
+            <label for="ltrabalho">Local de Trabalho(Endereço)</label>
             <input type="text"
-                class="form-control <?= $erros['email'] ? 'is-invalid' : ''?>"
-                id="email" name="email" placeholder="E-mail"
-                value="<?= $_POST['email'] ?>">
+                class="form-control <?= $erros['ltrabalho'] ? 'is-invalid' : ''?>"
+                id="ltrabalho" name="ltrabalho" placeholder="Local de Trabalho"
+                value="<?= $_POST['ltrabalho'] ?>">
             <div class="invalid-feedback">
-                <?= $erros['email'] ?>
+                <?= $erros['ltrabalho'] ?>
             </div>
         </div>
     </div>
 
 
+    <br></br>
     
+
     <h6>Informações do EPI</h6>
     <div class="form-row">
         <div class="form-group col-md-3">
-            <label for="nome">Codigo</label>
+            <label for="codigo">Codigo</label>
             <input type="text" 
-                class="form-control <?= $erros['nome'] ? 'is-invalid' : ''?>"
-                id="nome" name="nome" placeholder="Nome"
-                value="<?= $_POST['nome'] ?>">
+                class="form-control <?= $erros['codigo'] ? 'is-invalid' : ''?>"
+                id="codigo" name="codigo" placeholder="Código"
+                value="<?= $_POST['codigo'] ?>">
             <div class="invalid-feedback">
-                <?= $erros['nome'] ?>
+                <?= $erros['codigo'] ?>
             </div>
         </div>
         <div class="form-group col-md-3">
-            <label for="nascimento">Ano de fabricacao</label>
-            <input type="text"
-                class="form-control <?= $erros['nascimento'] ? 'is-invalid' : ''?>"
-                id="nascimento" name="nascimento"
-                placeholder="Nascimento"
-                value="<?= $_POST['nascimento'] ?>">
+            <label for="anofabric">Ano de fabricacao</label>
+            <input type="date"
+                class="form-control <?= $erros['anofabric'] ? 'is-invalid' : ''?>"
+                id="anofabric" name="anofabric"
+                placeholder="anofabric"
+                value="<?= $_POST['anofabric'] ?>">
             <div class="invalid-feedback">
-                <?= $erros['nascimento'] ?>
+                <?= $erros['anofabric'] ?>
             </div>
         </div>
         <div class="form-group col-md-3">
-            <label for="nascimento">Data de compra</label>
-            <input type="text"
-                class="form-control <?= $erros['nascimento'] ? 'is-invalid' : ''?>"
-                id="nascimento" name="nascimento"
-                placeholder="Nascimento"
-                value="<?= $_POST['nascimento'] ?>">
+            <label for="dt_compra">Data de compra</label>
+            <input type="date"
+                class="form-control <?= $erros['dt_compra'] ? 'is-invalid' : ''?>"
+                id="dt_compra" name="dt_compra"
+                placeholder="dt_compra"
+                value="<?= $_POST['dt_compra'] ?>">
             <div class="invalid-feedback">
-                <?= $erros['nascimento'] ?>
+                <?= $erros['dt_compra'] ?>
             </div>
         </div>
         <div class="form-group col-md-3">
-            <label for="nascimento">Data do primeiro uso</label>
-            <input type="text"
-                class="form-control <?= $erros['nascimento'] ? 'is-invalid' : ''?>"
-                id="nascimento" name="nascimento"
-                placeholder="Nascimento"
-                value="<?= $_POST['nascimento'] ?>">
+            <label for="prim_uso">Data do primeiro uso</label>
+            <input type="date"
+                class="form-control <?= $erros['prim_uso'] ? 'is-invalid' : ''?>"
+                id="prim_uso" name="prim_uso"
+                placeholder="prim_uso"
+                value="<?= $_POST['prim_uso'] ?>">
             <div class="invalid-feedback">
-                <?= $erros['nascimento'] ?>
+                <?= $erros['prim_uso'] ?>
             </div>
         </div>
     </div>

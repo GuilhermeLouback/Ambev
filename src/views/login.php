@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/icofont.min.css">
     <link rel="stylesheet" href="assets/css/login.css">
-    <link rel="icon" href="assets/css/favicon.png" type="image/png">
+    <link rel="icon" href="assets/css/favicon.ico" type="image/x-icon">
 
     <title>Ultra Safe</title>
 </head>
