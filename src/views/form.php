@@ -110,6 +110,106 @@ Baixe as instrucoes em <a href="https://www.ultrasafe.com.br" target="_blank">Ul
     </div>
 
 
+    <br></br>
+
+
+    <h6>1. Antecedentes conhecidos do produto</h6>
+    <div class="form-row">
+    </div>
+
+
+    <br></br>
+
+
+<h6>2. Antecedentes conhecidos do produto</h6>
+<div class="form-row">
+</div>
+
+
+<br></br>
+
+
+<h6>3. Antecedentes conhecidos do produto</h6>
+<div class="form-row">
+</div>
+
+
+<br></br>
+
+
+<h6>4. Antecedentes conhecidos do produto</h6>
+<div class="form-row">
+</div>
+
+
+<br></br>
+
+
+<h6>5. Antecedentes conhecidos do produto</h6>
+<div class="form-row">
+</div>
+
+
+<br></br>
+
+<h6>Comentarios </h6>
+<div class="form-row">
+</div>
+
+
+
+<br></br>
+
+<h6>Resultado</h6>
+<div class="form-row">
+</div>
+
+
+<br></br>
+
+<h6>Dados Finais</h6>
+<div class="form-row">
+        <div class="form-group col-md-8">
+            <label for="nome_insp">Nome do inspetor</label>
+            <input type="text" 
+                class="form-control <?= $erros['nome_insp'] ? 'is-invalid' : ''?>"
+                id="nome_insp" name="nome_insp" placeholder="Nome Inspetor"
+                value="<?= $_POST['nome_insp'] ?>">
+            <div class="invalid-feedback">
+                <?= $erros['nome_insp'] ?>
+            </div>
+        </div>
+        <div class="form-group col-md-4">
+            <label for="empresa">Empresa</label>
+            <input type="text"
+                class="form-control <?= $erros['empresa'] ? 'is-invalid' : ''?>"
+                id="empresa" name="nascimento"
+                placeholder="Empresa"
+                value="<?= $_POST['empresa'] ?>">
+            <div class="invalid-feedback">
+                <?= $erros['empresa'] ?>
+            </div>
+        </div>
+    </div>
+    <div class="form-row">
+        <div class="form-group col-md-3">
+            <label for="ltrabalho">Local de Trabalho(Endereço)</label>
+            <input type="date"
+                class="form-control <?= $erros['ltrabalho'] ? 'is-invalid' : ''?>"
+                id="ltrabalho" name="ltrabalho" placeholder="Local de Trabalho"
+                value="<?= $_POST['ltrabalho'] ?>">
+            <div class="invalid-feedback">
+                <?= $erros['ltrabalho'] ?>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
 
 
 <br>
