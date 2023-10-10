@@ -16,21 +16,21 @@
                     alert("Por favor, preencha todos os campos antes de enviar o formulário.");
                     return;
                 } else {
+                    $.ajax({
+                        type: "POST",
+                        url: "data.php",
+                        dataType: "json",
+                        data: formData,
+                        success: function (response) {
+                            console.log('Requisicao Enviada');
+                        },
+                        error: function (error) {
+                            console.error("Erro ao enviar variáveis por AJAX: " + error);
+                        }
+                    });
                     window.location.href = "response.php";
                     return false;
                 }
-                $.ajax({
-                    type: "POST",
-                    url: "data.php",
-                    dataType: "json",
-                    data: formData,
-                    success: function (response) {
-                        console.log('Requisicao Enviada');
-                    },
-                    error: function (error) {
-                        console.error("Erro ao enviar variáveis por AJAX: " + error);
-                    }
-                });
             });
         });
         function validateForm() {
