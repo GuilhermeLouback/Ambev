@@ -12,7 +12,7 @@ session_destroy();
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sucesso no Envio do Formulário</title>
+    <title>Ultra Safe</title>
     <style>
         body {
             font-family: Arial, sans-serif;
