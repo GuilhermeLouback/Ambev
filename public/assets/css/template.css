@@ -244,3 +244,13 @@ footer.footer {
 .center {
     text-align: center; /* Centraliza o conteúdo horizontalmente */
 }
+
+
+h2.Title{
+    text-align: center;
+    text-decoration: underline;
+}
+
+h6{
+    text-decoration: underline;
+}
